@@ -274,7 +274,7 @@ int main(int argc, char* argv[])
 		C3D_FrameEnd(0);
 		printf("\r%d", counter);
 
-		// Your code goes here
+		
 		u32 kDown = hidKeysDown();
 		if (kDown & KEY_START)
 			break; // break in order to return to hbmenu
