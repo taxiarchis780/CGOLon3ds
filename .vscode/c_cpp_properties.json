@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/include/**",
+                "${vcpkgRoot}/x64-windows/include",
+                "E:\\DevKitPro\\libctru\\include\\**",
+                "D:\\MinGWx86\\x86_64-w64-mingw32\\include\\**",
+                "E:\\DevKitPro\\devkitARM\\include\\**",
+                "E:\\DevKitPro\\devkitARM\\arm-none-eabi\\include\\**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "ARM9",
+                "M_PI=3.14"
+            ],
+            
+            "compilerPath": "E:\\DevKitPro\\devkitARM\\bin\\arm-none-eabi-gcc-12.2.0",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-gcc-x64",
+            "configurationProvider": "ms-vscode.cpptools"
+        }
+    ],
+    "version": 4
+}
